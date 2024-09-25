@@ -6,21 +6,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-/* Перевірка методів
-    DocumentManager manager = new DocumentManager();
-Document doc = Document.builder()
-    .title("JobDoc")
-    .content("Simple text massage")
-    .author(Author.builder().id("1").name("Me").build())
-    .build();
-manager.save(doc);
-SearchRequest request = SearchRequest.builder()
-    .titlePrefixes(Arrays.asList("Job"))
-    .containsContents(Arrays.asList("text"))
-    .build();
-List<Document> results = manager.search(request);
-Optional<Document> foundDoc = manager.findById(doc.getId());
-*/
 
 
 public class DocumentManager {
